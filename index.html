@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Age Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <form id="Age" >
+            <div class="base">
+                <div class="enter"><h4>Age Calculator &#10084;</h4></div>
+                <div class="block">
+                    <p class="title">Date</p>
+                    <input type="text" name="date" id="date" placeholder="Date" required minlength="1" maxlength="2">
+                </div>
+                <div class="block">
+                    <p class="title">Month</p>
+                    <input type="text" name="month" id="month" placeholder="Month" required minlength="1" maxlength="2">
+                </div>
+                <div class="block">
+                    <p class="title">Year</p>
+                    <input type="text" name="year" id="year" placeholder="Year" required minlength="4" maxlength="4">
+                </div>
+            </div>
+            <div class="base">
+                <div class="enter">
+                    <input type="submit" name="Submit" value="Submit" >
+                </div>
+            </div>
+            <div id="age"></div>
+        </form>
+        <div class="Create">
+            <p>&copy; Created By <span>K M Riaz Uddin</span></p>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
